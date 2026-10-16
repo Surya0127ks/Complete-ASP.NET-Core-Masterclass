@@ -1,4 +1,4 @@
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);  // Create a builder for the web application, passing in command-line arguments.
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
